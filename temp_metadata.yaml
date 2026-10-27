@@ -1,0 +1,37 @@
+algz:
+- super_odometry
+- tartanvo
+- lidar_mapping
+- roughness_cost
+- lidar_stitching
+average_speed: 5.415007681967699
+data_folder: /home/yamaha/rosbags
+date: 2023-09-12-10-37-17
+duration: 1667.987779
+experiment_name: tartandrive
+pre:
+  conditions:
+  - morning
+  - dry
+  - sunny
+  context:
+  - collect
+  course:
+  - gupta
+  driver: Matthew
+  launch:
+    joystick_drive:
+      args: null
+  number_people: 2
+  other:
+    live_notes: null
+    record: null
+    topics_monitor: null
+  robot: yamaha_viking
+sensors:
+- velodyne_2
+- multisense
+- racepak
+- novatel
+- velodyne_1
+top_speed: 11.941447867666964
